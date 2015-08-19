@@ -3,26 +3,26 @@ body {
 	background: #999999;
 }
 
-h1 {
+h1, {
 	color: #333333;
+	background: #000000;
 	font-family: Futura, sans-serif;
 	text-align: left;
 	padding: 10px;
-	border-style: solid;
 }
 
-
 h3 {
-	color: #333333;
-	font-family: Arialblack, sans-serif;
-	text-align: center;
+	background: #000000;
 	padding: 10px;
-	border-style: solid;
-    border-width: 5px;
+	color: #ffffff;
+	font-family: Futura, Arial, sans-serif;
+	text-transform: uppercase
+	text-align: center;
+	
 }
 
 p {
-	color: #333333;
+	color: #ffffff;
 	font-family: Futura, sans-serif;
 	font-size: 10pt;
 	text-align: center;
