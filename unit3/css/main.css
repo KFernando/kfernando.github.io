@@ -9,8 +9,9 @@ header {
 	text-align: justify;
 	line-height: 20%;
 	padding: 10px;
-	margin: 5px;
+	margin: 2px;
 }
+
 
 header h1,
 header h2 {
@@ -19,36 +20,63 @@ header h2 {
 
 header::after {
     content: '';
-    display: inline-block;
     width: 100%;
+    display: inline-block;
 }
 
 h1 {
 	color: #CCCCCC;
-	font-family: Futura, sans-serif;
-	font-size: 12pt;
-	font-weight: bold;
+	font-family: Century, serif;
+	font-size: 14pt;
 	line-height: 50%;
+	padding-left: 20px;
+	text-align: center;
+
 }
 
 h2 {
+	color: #CCCCCC;
+	font-family: Futura, sans-serif;
+	font-size: 12pt;
+	text-align: center;
+	line-height: 50%;
+	padding-right: 20px;
+	text-align: center;
+
+}
+
+#slogan {
 	color: #8b7500;
 	font-family: Futura, sans-serif;
 	font-size: 10pt;
 	background: #000;
 	line-height: 50%;
-	font
 }
 
-/*menu*/
+/*NAV*/
+
+.container {
+	width: 100%;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+	width: 170px;
+	height: 170px;
+	margin: 10px;
+	padding: 10px;
+}
 
 div {
 	display: inline-block;
 	width: 170px;
 	height: 170px;
-	margin: 5px;
-	padding: 5px;
-
+	margin: 10px;
+	padding: 10px;
+	
 }
 
 #about {
@@ -56,6 +84,26 @@ div {
 	color: #000000;
 	font-family: Futura, sans-serif;
 	text-align: center;
+	display: inline-block;
+}
+
+#typography {
+	
+	color: #8b7500;
+	font-family: Futura, sans-serif;
+	text-align: center;
+	display: inline-block;
+
+}
+
+#projects {
+	
+	color: #000000;
+	font-family: Futura, sans-serif;
+	text-align: center;
+	display: inline-block;
+
+
 }
 
 #blog {
@@ -63,45 +111,31 @@ div {
 	color: #8b7500;
 	font-family: Futura, sans-serif;
 	text-align: center;
-
-}
-
-#collab {
-	
-	color: #000000;
-	font-family: Futura, sans-serif;
-	text-align: center;
-
-
-}
-
-#works {
-	
-	color: #8b7500;
-	font-family: Futura, sans-serif;
-	text-align: center;
+	display: inline-block;
 }
 
 
-.container {
-	width: 100%;
-	margin: auto;
-	padding: auto;
-	text-align: center;
-}
-
-/*body*/
+/*MAIN*/
 
 h3 {
+	color: #333333;
+	font-family: Century, serif;
+	font-size: 11pt;
+}
+
+h4 {
 	color: #8b7500;
 	font-family: Century, serif;
-	font-size: 12pt;
+	font-size: 10pt;
 }
+
 
 h5 {
 	color: #8b7500;
 	font-family: Century, serif;
-	font-size: 8pt;
+	font-size: 9pt;
+	text-decoration: none;
+	text-align: left;
 
 }
 
@@ -113,6 +147,19 @@ p {
 
 }
 
+a:link {
+    color: #333333;
+    text-decoration: none;
+}
+
+a:hover {
+	color: #333333;
+    text-decoration: underline;
+}
+
+
+
+
 .twogrid {
 
 	background: #CCCCCC;
@@ -120,10 +167,9 @@ p {
 	font-family: Century, serif;
 	font-size: 48pt;
 	text-align: left;
-	width: 350px;
-	padding: 25px;
-	margin: 10px;
+	width: 375px;
 	line-height: 90%;
+	display: inline-block;
 }
 
 .onegrid {
@@ -133,6 +179,8 @@ p {
 	font-size: 14pt;
 	text-align: left;
 	line-height: 130%;
+	display: inline-block;
+	
 
 }
 
