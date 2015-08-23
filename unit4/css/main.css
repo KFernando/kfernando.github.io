@@ -321,13 +321,24 @@ a:visited {
 
 .gallery1 {
 
-	display: inline-block;
-	background: #333333;
-	height: 160px;
-	width: 75%;
-	padding: 10px;
-	margin-bottom: 40px;
+	position: relative;
+    overflow: hidden;
 
+}
+
+.gallery1 h1 {
+    padding: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.gallery1 img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 990px;
+    height: 310px;
+    opacity: 0.2;
 }
 
 .gallery3 {
