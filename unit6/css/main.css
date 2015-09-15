@@ -35,7 +35,10 @@ h1 {
 
 nav {
     padding-top: 20px;
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    list-style: none;
+    float:center;
 }
 
 
@@ -44,14 +47,6 @@ nav li {
     list-style-type: none;
     font-family: 'Playfair Display SC', serif;
     padding: 20px;
-
-}
-
-.top img {
-
-    max-width: 100%;
-    height: auto;
-    text-align: center;
 
 }
 
@@ -76,39 +71,21 @@ p {
 	display: block;
 	margin: auto;
 	width: 100%;
-	background-color: #ccc;
-
 
 }
+
 
 .top {
 
+	text-align: center;
+	margin: auto;
 	background: #fff;
+	height: 250px;
+	width: 800px;
 	padding: 20px;
-  	position: relative; 
- 	width: 100%; /* for IE 6 */
- 	margin-left: auto;
- 	margin-right: auto;
-}
 
-/*
-h4 { 
-
-   position: absolute; 
-   width: 800px;
-   height: 60px;
-   background: white;
 
 }
-*/
-
-h4 { 
-   color: #333;
-   text-align: center;
-   font-family: 'Playfair Display SC', serif;  
-   padding: 10px;
-
-} 
 
 .group {
 	
@@ -124,9 +101,9 @@ h4 {
 	display: inline-block;
 	margin: auto;
 	text-align: center;
-	background: #9fc;
+	background: #9cf;
 	height: 200px;
-	width: 330px;
+	width: 338px;
 	padding: 40px;
 
 }
@@ -136,27 +113,9 @@ h4 {
 	display: inline-block;
 	margin: auto;
 	text-align: center;
-	background: #9fc;
+	background: #9cf;
 	height: 200px;
-	width: 330px;
+	width: 338px;
 	padding: 40px;
 
-}
-
-
-footer {
-
-	background-color: black;
-	text-align: center;
-	margin: auto;
-
-}
-
-footer li {
-
-	display:inline-block;
-    list-style-type: none;
-    font-family: 'Playfair Display SC', serif;
-    color: #fff;
-    padding: 20px;
 }
