@@ -34,20 +34,28 @@ h1 {
 
 
 nav {
+	
     padding-top: 20px;
-    margin-right: auto;
-    margin-left: auto;
-    list-style: none;
-    float:center;
+    margin: auto;
 }
 
 
 nav li {
+
     display:inline-block;
     list-style-type: none;
     font-family: 'Playfair Display SC', serif;
     padding: 20px;
 
+}
+
+a:link {
+    color: #333;
+    text-decoration: none;
+}
+a:hover {
+    color: #333;
+    text-decoration: underline;
 }
 
 h2 {
@@ -71,28 +79,52 @@ p {
 	display: block;
 	margin: auto;
 	width: 100%;
+	background-color: #ccc;
+
 
 }
 
+.top img {
+
+	display: block;
+    width: 800px;
+    margin: auto;
+
+}
 
 .top {
 
-	text-align: center;
-	margin: auto;
 	background: #fff;
-	height: 250px;
-	width: 800px;
 	padding: 20px;
-
-
+  	position: relative; 
+ 	width: 100%; /* for IE 6 */
+ 	margin-left: auto;
+ 	margin-right: auto;
 }
+
+/*
+h4 { 
+   position: absolute; 
+   width: 800px;
+   height: 60px;
+   background: white;
+}
+*/
+
+h4 { 
+   color: #333;
+   text-align: center;
+   font-family: 'Playfair Display SC', serif;  
+   padding: 10px;
+
+} 
 
 .group {
 	
 	text-align: center;
 	margin-left: auto;
 	margin-left: auto;
-	background: #ccc;
+	background: #9fc;
 
 }
 
@@ -101,9 +133,9 @@ p {
 	display: inline-block;
 	margin: auto;
 	text-align: center;
-	background: #9cf;
+	background: #9fc;
 	height: 200px;
-	width: 338px;
+	width: 400px;
 	padding: 40px;
 
 }
@@ -113,9 +145,27 @@ p {
 	display: inline-block;
 	margin: auto;
 	text-align: center;
-	background: #9cf;
+	background: #9fc;
 	height: 200px;
-	width: 338px;
+	width: 400px;
 	padding: 40px;
 
+}
+
+
+footer {
+
+	background-color: #333;
+	text-align: center;
+	margin: auto;
+
+}
+
+footer li {
+
+	display:inline-block;
+    list-style-type: none;
+    font-family: 'Playfair Display SC', serif;
+    color: #fff;
+    padding: 20px;
 }
