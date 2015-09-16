@@ -112,13 +112,6 @@ img {
     height: auto;
     display: inline-block;
 }
-@media screen and (max-width: 400px) {
-    .left, 
-    .right {
-        float: none;
-        width: auto;
-    }
-}
 
 
 
