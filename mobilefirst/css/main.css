@@ -1,0 +1,133 @@
+body {
+	font-size: 18px;
+	font-family:'Roboto Slab', serif; sans-serif;
+	color: #333;
+	background: #ccc;
+	line-height: 1.6;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+nav {
+	background: #000;
+}
+
+nav a {
+	color: #ccc;
+	text-decoration: none;
+	text-align: center;
+	display: none;
+	padding: .5em;
+}
+
+nav a#mobilenav {
+	font-size: 2em;
+	padding: 0;
+	display: block;
+}
+
+nav a:hover {
+	background-color: #8b7500;
+}
+
+nav:hover a {
+	display: block;
+}
+
+header {
+	background-color: #000;
+}
+
+header h1, h2 {
+	display: inline-block;
+}
+
+h1 {
+	font-size: 1.2em;
+	color: #ccc;
+	margin: 0 .075em .05em 0;
+}
+
+h2 {
+	font-size: 1em;
+	color: #8b7500;
+	margin: 1em;
+}
+
+section {
+	color: #333;
+	text-align: center;
+	display: block;
+	padding: .5em;
+}
+
+.grey {
+	width: 100%;
+	background: #ccc;
+	line-height: 180%;
+	text-align: left;
+}
+
+.grey div {
+	display: block;
+}
+
+.grey p {
+	padding: 2em;
+}
+
+.grey span {
+	font-size: 2em;
+	text-align: left;
+	font-size: 3em;
+	padding: .5em;
+	
+}
+
+
+.darkgrey {
+	width: 100%;
+	background: #333;
+}
+
+.black {
+	width: 100%;
+	background: #000;
+}
+
+.gold {
+	width: 100%;
+	background: #8b7500;
+	text-align: left;
+}
+
+.gold h2 {
+	font-size: 1em;
+	text-align: center;
+	color: #333;
+	margin: 1em;
+}
+
+.gold p span {
+	font-size: 2em;
+	text-align: left;
+	line-height: 180%;
+	padding: 2em;
+}
+.gold div {
+	display: inline-block;
+	padding: .25em;
+	margin: .25em;
+
+}
+.gold p {
+	padding: 2em;
+}
+
+
