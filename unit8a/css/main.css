@@ -1,7 +1,7 @@
 body {
 	font-size: 18px;
 	font-family:'Roboto Slab', serif; sans-serif;
-	color: #333;
+	color: #000;
 	background: #ccc;
 	line-height: 1.6;
 	text-align: center;
@@ -50,7 +50,7 @@ header h1, h3 {
 
 h1 {
 	font-size: 1.5em;
-	color: #fff;
+	color: #ccc;
 	margin: 1em .075em 0 .075em;
 }
 
@@ -71,14 +71,13 @@ h3 {
 	padding-bottom: 1em;
 }
 
-
-p {
-	margin: 1em;
-}
-
 img {
 	width: 100%;
 
+}
+
+section {
+	width: 100%;
 }
 
 .grey {
@@ -97,11 +96,12 @@ img {
 
 .grey span {
 	font-size: 3.5em;
+
 }
 
 .grey h3 {
 	text-align: left;
-	padding: 1em 0 0 1em;
+
 }
 
 .darkgrey {
@@ -116,8 +116,6 @@ img {
 	padding: .75em;
 }
 
-
-
 .gold {
 	width: 100%;
 	background: #8b7500;
@@ -128,7 +126,7 @@ img {
 }
 
 .gold h2 {
-	color: #000;
+	color: #ccc;
 }
 
 .gold span {
@@ -141,7 +139,7 @@ img {
 
 footer {
 	background: #000;
-	color: #fff;
+	color: #ccc;
 	padding: .75em;
 	width: 100%;
 
