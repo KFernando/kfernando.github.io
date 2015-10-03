@@ -63,46 +63,49 @@ h3 {
 	margin: 0 .075em 0em .075em;
 	padding-bottom: 1em;
 }
-img {
-	width: 100%;
-	max-width: 30em;
+
+h4 {
+	font-size: 3em;
+	color: #000;
 }
-section {
-	width: 100%;
-}
+
 .grey {
 	background: #ccc;
 	width: 100%;
-	line-height: 210%;
 	text-align: center;
 }
+
 .grey img {
-	width: 18%;
+	width: 100%;
 	max-width: 10em;
 	display: block;
-	padding: 3em 0 1em 0;
-	margin: 0;
+	padding: 3em 0 3em 0;
+	margin: auto;
 }
+.title {
+	font-size: 3em;
+	line-height: 90%;
+	margin: 0;
+	padding: 0 .25em 0 .25em;
 
-div .col1, .col2 {
-	display: inline-block;
-	padding: .5em;
-	margin: 0;
 }
-.grey span {
-	font-size: 3.5em;
-	text-align: left;
-	padding: 1em;
-	margin: 0;
+.byline {
+	font-size: 1em;
+	color: #8b7500;
+	margin: .5em;
+	padding: 0 1em 0 1em;
+
 }
 .grey h1 {
 	color: #8b7500;
 }
-.grey img {
-	width: 50%;
-	display: block;
-	margin: auto;
+
+.container
+
+.col1, .col2 {
+	padding: 0 2em 2em 2em;
 }
+
 .darkgrey {
 	background: #333;
 	width: 100%;
