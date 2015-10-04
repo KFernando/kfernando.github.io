@@ -37,7 +37,7 @@ nav:hover a {
 header {
 	background-color: #000;
 	margin: 0;
-	padding: 2em 0 0 0;
+	padding: 0;
 	width: 100%;
 }
 
@@ -169,6 +169,11 @@ footer {
 
 @media only screen and (min-width:750px) {
 
+
+header h1, h3 {
+	display: none;
+}
+
 .iconset {
 	display: inline-block;
 }
@@ -190,6 +195,7 @@ font-size: 4em; }
 
 nav a{
 	display: inline-block;
+	padding: 1em 4em 1em 4em;
 }
 
 nav:hover a {
