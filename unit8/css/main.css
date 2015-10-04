@@ -167,8 +167,15 @@ footer {
 
 }
 
-@media only screen and (min-width:750px) {
+@media only screen and (min-width:730px) {
 
+.gallery {
+width: 30%;
+margin: 0;
+padding: 1em 0 0 3em;
+vertical-align: baseline;
+
+}
 
 header h1, h3 {
 	display: none;
@@ -185,17 +192,9 @@ font-size: 4em; }
 	width: 50%;
 }
 
-.gallery {
-	width: 30%;
-	margin: 0;
-	padding: 1em 0 3em 0;
-	vertical-align: baseline;
-
-}
-
 nav a{
 	display: inline-block;
-	padding: 1em 4em 1em 4em;
+	padding: 1em 3em 1em 3em;
 }
 
 nav:hover a {
@@ -219,7 +218,11 @@ nav a#mobilenav {
 
 }
 
-@media only screen and (min-width:480px) {
+@media only screen and (min-width:850px) {
+
+}
+
+}
 
 
 
