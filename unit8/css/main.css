@@ -1,10 +1,10 @@
 body {
-	font-size: 18px;
+	font-size: 16px;
 	font-family:'Roboto Slab', serif; sans-serif;
 	color: #000;
 	background: #ccc;
-	line-height: 1.6;
 	text-align: center;
+	line-height: 1.6;
 	margin: 0;
 	padding: 0;
 }
@@ -75,7 +75,7 @@ h3 {
 .grey img {
 	width: 100%;
 	max-width: 9em;
-	padding: 3em 1em 2em 1em;
+	padding: 5em 1em 2em 1em;
 	margin: auto;
 }
 
@@ -84,56 +84,70 @@ h3 {
 }
 
 .title {
-	font-size: 3em;
+	font-size: 3.25em;
 	line-height: 90%;
-	margin: 0;
-	padding: .5em .25em 0 .25em;
+	margin: .75em .5em 0 .5em;
 
 }
 .byline {
-	font-size: 1em;
+	font-size: 1.5em;
 	color: #8b7500;
-	margin: .5em;
-	padding: 0 1em 0 1em;
+	margin: 0;
+	padding: 1em 1em 3em 1em;
+}
+
+.copy {
+	font-size: 1.25em;
+	padding: .5em 1em 2em 1em;
+	width: 75%;
+	margin: auto;
+}
+.right h1 {
+	color: #8b7500;
+	text-align: center;
 
 }
 
-.container {
+.group {
 	width: 100%;
 	margin: auto;
 }
 
-.col2 h1 {
-	color: #8b7500;
-}
-
-.col2 p {
-	padding: 0 1em 2em 1em;
-}
-
-.col1, .col2 {
-	display: inline-block;
+.left {
+	display: block;
 	margin: auto;
-	width: 70%;
+}
+
+.right {
+	display: block;
+	margin: auto;
 }
 
 .darkgrey {
 	background: #333;
+	color: #8b7500;
 	width: 100%;
-	padding: .75em;
+	padding: .35em;
 }
+
 .black {
 	background: #000;
 	width: 100%;
-	padding: .75em;
+	padding: .35em;
 }
+
+.gallery {
+	width: 100%;
+	margin: auto;
+}
+
+
 .gold {
 	background: #8b7500;
 	color: #000;
-	line-height: 210%;
 	text-align: center;
 	width: 100%;
-	padding: .75em;
+	padding: .35em;
 	margin: 0;
 }
 .gold h2 {
@@ -147,16 +161,61 @@ h3 {
 footer {
 	background: #000;
 	color: #ccc;
-	padding: .75em;
+	padding: 1em .35em 5em .35em;
 	width: 100%;
 
 }
 
-@media only screen and (min-width:800px) {
+@media only screen and (min-width:750px) {
 
 .iconset {
 	display: inline-block;
 }
 
+.title {
+font-size: 4em; }
+
+.copy {
+	width: 50%;
 }
+
+.gallery {
+	width: 30%;
+	margin: 0;
+	padding: 1em 0 3em 0;
+	vertical-align: baseline;
+
+}
+
+nav a{
+	display: inline-block;
+}
+
+nav:hover a {
+	display: inline-block;
+}
+
+nav a#mobilenav {
+
+	display: none;
+}
+
+.left {
+	display: inline-block;
+	margin: auto;
+}
+
+.right {
+	display: inline-block;
+	margin: auto;
+}
+
+}
+
+@media only screen and (min-width:480px) {
+
+
+
+
+
 
