@@ -5,8 +5,8 @@ body {
 	background: #ccc;
 	line-height: 1.6;
 	text-align: center;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 
 img {
@@ -23,7 +23,7 @@ nav a {
 	text-decoration: none;
 	text-align: center;
 	display: none;
-	padding: .5em;
+	padding: 1em;
 }
 
 nav a#mobilenav {
@@ -44,56 +44,68 @@ header {
 	background-color: #000;
 }
 
-header h1, h2 {
-	display: inline-block;
+header h1, h3 {
+	display: block;
 }
 
 h1 {
-	font-size: 1.2em;
-	color: #ccc;
-	margin: 0 .075em .05em 0;
+	font-size: 1.5em;
+	color: #fff;
+	margin: 1em .075em 0 .075em;
 }
 
 h2 {
+	font-size: 1.5em;
+	color: #8b7500;
+	width: 100%;
+	text-align: center;
+	
+}
+
+h3 {
 	font-size: 1em;
 	color: #8b7500;
+	margin: 0 .075em 1.5em .075em;
+	padding-bottom: 1em;
+}
+
+
+p {
 	margin: 1em;
 }
 
-section {
-	color: #333;
-	text-align: center;
-	display: block;
-	padding: .5em;
+img {
+	width: 100%;
+	padding: 3em;
+
 }
 
 .grey {
 	width: 100%;
 	background: #ccc;
-	line-height: 180%;
+	line-height: 210%;
 	text-align: left;
+
 }
 
-.grey div {
+.grey div .col1, .col2{
 	display: block;
-}
-
-.grey p {
-	padding: 2em;
+	width: 100%;
 }
 
 .grey span {
-	font-size: 2em;
-	text-align: left;
-	font-size: 3em;
-	padding: .5em;
-	
+	font-size: 3.5em;
 }
 
+.grey h3 {
+	text-align: left;
+	padding: 1em 0 0 1em;
+}
 
 .darkgrey {
 	width: 100%;
 	background: #333;
+
 }
 
 .black {
@@ -105,29 +117,29 @@ section {
 	width: 100%;
 	background: #8b7500;
 	text-align: left;
-}
-
-.gold h2 {
-	font-size: 1em;
-	text-align: center;
-	color: #333;
-	margin: 1em;
-}
-
-.gold p span {
-	font-size: 2em;
-	text-align: left;
 	line-height: 180%;
-	padding: 2em;
+	color: #000;
 }
-.gold div {
-	display: inline-block;
-	padding: .25em;
-	margin: .25em;
 
+.grey2 h2 {
+	color: #000;
 }
-.gold p {
-	padding: 2em;
+
+.gold span {
+	font-size: 3em;
+	text-align: left;
+}
+
+.gold div .col1, .col2 {
+	display: block;
+}
+
+footer {
+	background: #000;
+	color: #fff;
+	padding: .5em;
+	width: 100%;
+
 }
 
 

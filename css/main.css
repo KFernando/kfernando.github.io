@@ -1,4 +1,11 @@
 
+body {
+	background: #CCCCCC;
+	font-family: 'Roboto Slab', serif;
+	font-size: 10px;
+}
+
+
 header {
 	
 	background: #000000;
@@ -10,159 +17,105 @@ header {
 	margin: 2px;
 }
 
-header h1,
 header h2 {
     display: inline-block;
 }
 
 header::after {
-    content: '';
+    content:'';
     width: 100%;
     display: inline-block;
 }
 
-h1 {
+h2 {
 	color: #CCCCCC;
-	font-family: Century, serif;
 	font-size: 14pt;
 	line-height: 50%;
 	padding-left: 20px;
-	text-align: center;
-
-}
-
-h2 {
-	color: #8b7500;
-	font-family: Futura, sans-serif;
-	font-size: 48pt;
-	text-align: center;
-	line-height: 50%;
-	text-align: center;
+	padding-right: 20px;
 
 }
 
 #slogan {
 	color: #8b7500;
-	font-family: Futura, sans-serif;
 	font-size: 10pt;
-	margin-right: 10px;
-	margin-left: 10px;
-	line-height: 50%;
-	padding-right: 20px;
-	padding-left: 20px;
-}
-
-
-
-body {
-	background: #CCCCCC;
-	margin: 0px;
-	padding: 0px;
 }
 
 /*NAV*/
 
-.nav {
-
+nav {
 	width: 100%;
     padding-top: 0.5rem;
     text-align: center;
-
+    margin: auto;
 }
 
-li {
-	display: inline-block;
-	width: 180px;
-	height: 170px;
-	margin: auto;
-	padding: 5px;
-
-}
-
-#typography {
+nav li {
 	
-	color: #000000;
-	font-family: Futura, sans-serif;
-	text-align: center;
 	display: inline-block;
-}
-
-#inspo {
-	
-	color: #8b7500;
-	font-family: Futura, sans-serif;
+	padding: 20px;
 	text-align: center;
-	display: inline-block;
 
 }
 
-#works {
-	
-	color: #000000;
-	font-family: Futura, sans-serif;
-	text-align: center;
+img {
+
 	display: inline-block;
-
-
-}
-
-#blog {
-	
-	color: #8b7500;
-	font-family: Futura, sans-serif;
 	text-align: center;
-	display: inline-block;
+	width: 140px;
+	height: 140px;
+	
+	
 }
 
 
 /*MAIN*/
+
+
 .container {
-	
 	position: relative;
 	width: 100%;
-	text-align: center;
 	margin: auto;
+	text-align: center;
 }
 
-
-h3 {
-	color: #8b7500;
-	font-family: Century, serif;
-	font-size: 18pt;
-}
-
-h4 {
-	color: #8b7500;
-	font-family: Century, serif;
-	font-size: 10pt;
-}
-
-
-h5 {
-	color: #8b7500;
-	font-family: Century, serif;
-	font-size: 9pt;
-	text-decoration: none;
-	text-align: left;
-
-}
-
-h6 {
-	color: #000;
-	font-family: Century, serif;
-	font-size: 18pt;
+.top {
+	position: relative;
+	width: 100%;
+	margin-bottom: 20px;
 }
 
 
 p {
-	color: #333333;
+	color: #333;
 	font-family: Futura, sans-serif;
 	font-size: 10pt;
 	text-align: left;
+}
+
+
+h1 {
+	color: #8b7500;
+	font-size: 24pt;
+	line-height: 130%;
+	text-align: center;
+	margin-top: 20px
 
 }
 
-a:link {
+h3 {
+	color: #8b7500;
+	font-size: 10pt;
+}
+
+
+h4 {
+
+	font-size: 9pt;
+}
+
+
+a:link, a:visited {
     color: #333333;
     text-decoration: none;
 }
@@ -173,42 +126,53 @@ a:hover {
 }
 
 
+.collarge {
 
-
-.textboxlarge {
-
-	background: #CCCCCC;
+	display: inline-block;
 	color: #333333;
-	font-family: Century, serif;
 	font-size: 48pt;
 	text-align: left;
-	width: 375px;
 	line-height: 90%;
-	display: inline-block;
+	width: 375px;
+	margin: 5px;
+	padding: 20px;
+	
 }
 
-.textboxsmall {
+.colsmall {
 
 	display: inline-block;
-	color: #333333;
-	font-family: Futura, sans-serif;
+	color: #000;
 	font-size: 14pt;
 	text-align: left;
-	width: 165px;
-	height: 165px;
-	padding: 10px;
-	margin: 5px;
 	line-height: 130%;
+	width: 275px;
+	margin: 5px;
+	padding: 10px;
 
 }
 
+.important {
+	color: #333333;
 
-.sectiongold {
+}
+
+.sectionlgrey {
 
 	text-align: center;
-	color: #000;
 	display: inline-block;
-	background: #8b7500;
+	background: #ccc;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2px;
+
+}
+
+.sectiongrey {
+
+	display: inline-block;
+	background: #333333;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -228,29 +192,46 @@ a:hover {
 
 }
 
-.spacer {
-	
-	display: inline-block;
-	color: #000;
-	width: 100%;
+.sectiongold {
+
 	text-align: center;
-	font-family: futura, sans-serif;
-	font-size: 14px;
-	text-decoration: underline;
-	height: 75px;
+	display: inline-block;
+	background: #8b7500;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2px;
+
+}
+
+#spacer {
+	
+	width: 100%;
+	height: 50px;
 	margin: auto;
 	padding: 2px;
 }
 
 .gallery1 {
 
-	display: inline-block;
-	background: #333333;
-	height: 160px;
-	width: 75%;
-	padding: 10px;
-	margin-bottom: 40px;
+	position: relative;
+    overflow: hidden;
 
+}
+
+.gallery1 h1 {
+    padding: 100px;
+    position: relative;
+
+}
+
+.gallery1 img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1280px;
+    height: 450px;
+    opacity: 0.1;
 }
 
 .gallery3 {
@@ -263,6 +244,32 @@ a:hover {
 	
 }
 
+/*FOOTER*/
+
+footer {
+	background: #000;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	padding : 2px;
+
+}
+
+footer li {
+	display: inline-block;
+	padding: 20px;
+}
+
+
+footer a:link, footer a:visited {
+    color: #8b7500;
+    text-decoration: none;
+}
+
+footer a:hover {
+	color: #8b7500;
+    text-decoration: underline;
+}
 
 
 

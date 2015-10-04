@@ -38,7 +38,6 @@ nav {
     margin-right: auto;
     margin-left: auto;
     list-style: none;
-    float:center;
 }
 
 
@@ -58,6 +57,11 @@ a:hover {
     color: #333;
     text-decoration: underline;
 }
+a:visited {
+    color: #333;
+    text-decoration: none;
+}
+
 
 h2 {
 
@@ -98,8 +102,9 @@ width: 100%;
 }
 .right {
     float: right;
-    width: 400px;
+    width: 350px;
     padding: 20px;
+    text-align: right;
 }
 .group:after {
     content:"";
@@ -107,10 +112,10 @@ width: 100%;
     clear: both;
 
 }
+
 img {
     max-width: 100%;
     height: auto;
-    display: inline-block;
 }
 
 
@@ -119,7 +124,7 @@ img {
 
 	text-align: center;
     display: inline-block;
-    background: #9fc;
+    background: #bff;
     height: 250px;
     width: 100%;
     margin-left: auto;
@@ -132,7 +137,7 @@ img {
 .gallery3 {
 
 	display: inline-block;
-    background: #bff;
+    background: #aaa;
     height: 160px;
     width: 25%;
     padding: 10px;
