@@ -37,6 +37,7 @@ nav:hover a {
 header {
 	background-color: #000;
 	margin: 0;
+	padding: 2em 0 0 0;
 	width: 100%;
 }
 
@@ -46,7 +47,7 @@ header h1, h3 {
 
 h1 {
 	font-size: 1.5em;
-	color: #ccc;
+	color: #8b7500;
 	margin: 0;
 	padding: 1em 0 0 0;
 }
@@ -75,7 +76,7 @@ h3 {
 .grey img {
 	width: 100%;
 	max-width: 9em;
-	padding: 5em 1em 2em 1em;
+	padding: 3em 1em 1em 1em;
 	margin: auto;
 }
 
