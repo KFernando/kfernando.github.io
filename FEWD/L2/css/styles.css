@@ -10,7 +10,7 @@ body {
 }
 
 img {
-	width: 350px;
+	width: 300px;
 }
 
 nav {
@@ -34,7 +34,7 @@ h1 {
 
 h3 {
 	
-	margin: 0 50px 10px 50px;
+	margin: 20px 50px 10px 50px;
 	color: #9BB4CE;
 	font-family: 'Delius Unicase', cursive;
 }
