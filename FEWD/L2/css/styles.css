@@ -16,15 +16,27 @@ img {
 nav {
 	margin: 50px
 }
+
+a {
+	font-weight: 700;
+	color: white;	
+}
+
+nav a {
+	padding: 20px
+
+}
+
 h1 {
 	color: white;
 	font-family: 'Delius Unicase', cursive;
 }
 
 h3 {
-	text-align: left;
+	
 	margin: 0 50px 10px 50px;
 }
+
 ul {
 	text-align: left;
 	margin: 0 75px 75px 75px;
@@ -35,14 +47,14 @@ li {
 	line-height: 200%;
 }
 
-a {
-	font-weight: 700;
-	color: white;	
+div img {
+	width: 300px;
+	display: inline-block;
 }
 
-nav a {
-	padding: 20px
-
+div {
+	margin: 0 auto;
+	
 }
 
 p {
