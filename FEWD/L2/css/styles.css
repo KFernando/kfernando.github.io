@@ -4,7 +4,7 @@ body {
 	color: black;
 	text-align: center;
 	font-family: helvetica;
-	font-family: 'Delius Unicase', cursive;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 
 }
@@ -13,6 +13,9 @@ img {
 	width: 350px;
 }
 
+nav {
+	margin: 50px
+}
 h1 {
 	color: white;
 	font-family: 'Delius Unicase', cursive;
@@ -20,14 +23,19 @@ h1 {
 
 h3, ul {
 	text-align: left;
-	margin: 75px;
+	margin: 0 75px 75px 75px;
 	list-style: square;
 }
 
 a {
 	font-weight: 700;
 	color: white;
+	
+}
+
+nav a {
 	padding: 20px
+
 }
 
 p {
