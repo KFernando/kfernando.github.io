@@ -1,0 +1,41 @@
+
+body {
+
+	font-family: Lato, sans-serif;
+	padding: 20px;
+	margin: auto;
+	max-width: 600px;
+	
+}
+
+h1 {
+	font-size: 50px;
+	color: red;
+}
+
+h1 h2 h4 {
+	text-decoration: none;
+	
+}
+
+nav {
+	padding-bottom: 50px;
+	color: #ddd;
+}
+
+a {
+
+	padding: 10px;
+	font size: 20px;
+
+}
+
+img {
+	width: 600px;
+}
+
+h4 {
+
+	text-align: right;
+	
+}
