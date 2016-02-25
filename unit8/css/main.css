@@ -137,10 +137,40 @@ h3 {
 	padding: .35em;
 }
 
-.gallery {
-	width: 100%;
-	margin: auto;
+.work1{
+  background-image: url("http://dash.ga.co/assets/firstcourse.jpg");
 }
+.work2{
+  background-image: url("http://dash.ga.co/assets/secondcourse.jpg");
+}
+.work3{
+  background-image: url("http://dash.ga.co/assets/dessertcourse.jpg");
+}
+
+.gallery {
+	/*width: 100%;
+	margin: auto;*/
+	height: 200px;
+   	background-size: cover;
+    
+}
+
+.gallery p  { 
+  color: rgba(255,255,255,.5);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 30px;
+
+}
+
 
 
 .gold {
@@ -164,7 +194,6 @@ footer {
 	color: #ccc;
 	padding: 1em .35em 5em .35em;
 	width: 100%;
-
 }
 
 @media only screen and (min-width:730px) {
@@ -177,10 +206,13 @@ vertical-align: baseline;
 
 }
 
-header h1, h3 {
+header h1, h3 { 
 	display: none;
 }
 
+.grey img {
+	padding: 3em 1em 1em 1em;
+}
 .iconset {
 	display: inline-block;
 }
