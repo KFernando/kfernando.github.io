@@ -1,0 +1,146 @@
+body {
+	width: 800px;
+	margin: auto;
+}
+
+header {
+	width: 780px;
+	height: 100px;
+	margin: 5px;
+
+}
+
+.logo {
+
+	background: #eee;
+	border: 1px #ccc solid;
+	width: 200px;
+	height: 100px;
+	float: left;
+
+}
+
+p {
+	font-size: 26px;
+	font-family: sans-serif;
+	color: black;
+	text-align: center;
+	padding: 10px;
+}
+
+nav {
+
+	width: 500px;
+	height: 100px;
+	float: right;
+	margin-left: 10px;
+	margin-top: 10px;
+
+}
+
+
+nav a {
+
+	background: #eee;
+	border: 1px #ccc solid;
+	width: 100px;
+	height: 50px;
+	margin-left: 10px;
+	float: right;
+	
+}
+
+#container {
+
+	width: 800px;
+	height: 610px;
+	margin: 10px;
+}
+
+aside {
+	
+	background: #EEE;
+	border: 1px #ccc solid;
+	width: 140px;
+	height: 575px;
+	margin: 10px;
+	margin-left: 0;
+	float: left;
+	clear: both;
+}
+
+
+
+#top {
+
+	background: #EEE;
+	border: 1px #ccc solid;
+	width: 625px;
+	height: 100px;
+	margin: 10px;
+	float: left;
+
+}
+
+#left {
+	
+	background: #EEE;
+	border: 1px #ccc solid;
+	width: 462px;
+	height: 300px;
+	margin: 10px;
+	float: left;
+}
+
+#right {
+	
+	background: #EEE;
+	border: 1px #ccc solid;
+	width: 140px;
+	height: 300px;
+	margin: 10px;
+	float: left;
+
+}
+
+
+
+article {
+
+	background: #EEE;
+	border: 1px #ccc solid;
+	width: 140px;
+	height: 130px;
+	margin: 10px;
+	float: left;
+
+}
+/*aside {
+	
+	background: #eee;
+	border: 1px #ccc solid;
+	width: 280px;
+	height: 300px;
+	margin: 10px;
+	float: left;
+	
+}*/
+
+footer {
+	
+	background: #eee;
+	border: 1px #ccc solid;
+	width: 790px;
+	height: 100px;
+	margin: 0 10px;
+	float: left;
+
+}
+
+/*marketing with nav*/
+
+
+}
+
+
+
