@@ -135,18 +135,13 @@ section {
 
   background: #f0efef;
   color: #606161;
-  width: 75%;
+  width: 500px;
   height: 250px;
   padding: 30px 75px;
   line-height: 1.5;
 
 }
 
-ul {
-
-  padding: 5px 32px;
-
-}
 
 
 blockquote {
@@ -232,7 +227,7 @@ footer p {
 footer img {
 
   height: 25px;
-  padding: 25px;
+  margin: 5px;
 
 }
 
