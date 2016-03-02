@@ -1,0 +1,138 @@
+body {
+	width: 800px;
+	margin: auto;
+}
+
+header {
+	background: black;
+	width: 800px;
+	height: 100px;
+
+}
+
+.logo {
+	float: left;
+	position: relative;
+	top: 20px;
+	left: 30px;
+
+}
+
+header p {
+	font-size: 26px;
+	font-family: sans-serif;
+	color: yellow;
+	text-align: center;
+
+}
+
+nav {
+
+	width: 628px;
+	float: right;
+	position: relative;
+	top: 30px;
+	left: 100px;
+
+}
+
+
+nav a {
+
+	color: white;
+	width: 100px;
+	font-size: 16px;
+	float: left;
+	padding-left: 10px;
+	font-family: serif;
+	
+}
+
+nav a span {
+
+	font-family: sans-serif;
+
+}
+hr {
+	color: yellow;
+}
+
+#tagline {
+
+	background: #ccc;
+	width: 800px;
+	height: 75px;
+	float: left;
+	clear: both;
+
+}
+
+section {
+	
+	background: url(../images/coworking.jpg);
+  	background-position: center top;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	width: 800px;
+	height: 450px;
+	float: left;
+}
+
+
+aside {
+	
+	background: white;
+	width: 316px;
+	height: 400px;
+	margin: 10px;
+	float: right;
+	
+}
+
+article {
+
+	background: #eee;
+	border: 1px #ccc solid;
+	width: 33%;
+	height: 244px;
+	float: left;
+
+}
+
+article h3 {
+	font-family: sans-serif;
+	font-size: 24px;
+}
+
+article p {
+	font-family: serif;
+	font-size: 20px;
+}
+
+button {
+	width: 250px;
+
+}
+
+button h4 {
+	font-family: sans-serif;
+	font-size: 24px;
+}
+
+footer {
+	
+	background: #eee;
+	border: 1px #ccc solid;
+	width: 780px;
+	height: 100px;
+	margin: 10px;
+	float: left;
+
+}
+
+/*marketing with nav*/
+
+
+
+
+

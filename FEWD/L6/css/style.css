@@ -1,0 +1,199 @@
+body {
+	width: 100%;
+	margin: auto;
+	text-align: left;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+	background: black;
+	width: 100%;
+	height: 100px;
+	border-bottom: yellow 4px solid;
+}
+
+.logo {
+	float: left;
+	position: relative;
+	top: 20px;
+	left: 30px;
+
+}
+
+.logo p {
+	font-size: 26px;
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+	text-align: center;
+	color: yellow;
+
+}
+
+nav {
+
+	width: 628px;
+	float: right;
+	position: relative;
+	top: 40px;
+	left: 20px;
+
+}
+
+nav a {
+
+	color: white;
+	font-size: 18px;
+	float: left;
+	padding-left: 20px;
+	text-decoration: none;
+}
+
+nav a span {
+	width: 140px;
+	font-family: Oswald, sans-serif;
+	font-size: 20px;
+}
+
+#tagline {
+
+	background: #ccc;
+	width: 100%;
+	height: 75px;
+	float: left;
+	clear: both;
+}
+
+#tagline p {
+
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	font-size: 24px;
+	font-style: italic;
+	position: relative;
+	top: 20px;
+}
+
+#strike {
+	text-decoration: line-through;
+	color: #999;
+}
+
+#underline {
+	border-bottom: yellow 3px solid;
+}
+
+section {
+	
+	background: url(../images/coworking.jpg);
+  	background-position: center center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	width: 100%;
+	height: 450px;
+	float: left;
+}
+
+
+aside {
+	
+	background-color: rgba(255,255,255, 0.8);
+	width: 33%;
+	height: 300px;
+	margin: 40px 30px;
+	float: right;
+	padding: 30px 30px;
+	box-shadow: 0 0 1em black;
+
+	
+}
+
+aside h3 {
+
+	font-size: 26px;
+	font-weight: bold;
+}
+aside p {
+
+	font-size: 18px;
+	line-height: 1.8;
+	padding: 10px 0;
+}
+
+aside button {
+	width: 200px;
+	height: 50px;
+	background: yellow;
+	border-radius: 5px;
+	border: none;
+	padding: 5px 32px;
+	margin: 15px 0;
+	
+}
+
+aside button h4 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+}
+
+article {
+
+	background: white;
+	border-right: 1px #ccc solid;
+	width: 29%;
+	height: 230px;
+	float: left;
+	padding: 30px 20px;
+
+
+}
+
+article h3 {
+	font-family: 'Merriweather', serif;
+	font-size: 22px;
+	font-weight: 700;
+	padding: 5px 10px;
+}
+
+article p {
+	font-size: 15px;
+	line-height: 1.8;
+	padding: 5px 10px;
+}
+
+article button {
+	width: 200px;
+	height: 50px;
+	background: #ccc;
+	border-radius: 5px;
+	border: none;
+	padding: 5px 32px;
+	margin: 15px 0;
+}
+
+article button h4 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+}
+
+footer {
+	
+	background: black;
+	width: 100%;
+	height: 50px;
+	float: left;
+
+}
+
+footer p {
+	
+	color: white;
+	font-size: 14px;
+	padding: 20px;
+}
+
+/*marketing with nav*/
+
+
+
+
+
