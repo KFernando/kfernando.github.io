@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title> jQuery - Getting and Setting content </title>
+    <style type="text/css">
+      #button {
+        font-size: 16px;
+        border-radius: 3px;
+      }
+
+      #name {
+        font-size: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <button id="button">click me</button>
+    <p id="name">Kareem Grant</p>
+
+    <script src="js/jquery-2.1.4.js"></script>
+    <script>
+      $(function(){
+
+        function toggleName(){
+          // slideUp if #name is being displayed
+          // or slideDown if the #name is hidden
+          $('#name').slideToggle();
+        }
+
+        // Call the toggleName function when 
+        // element matching the selector of #button is clicked
+        $('#button').click(toggleName);
+      });
+    </script>
+  </body>
+</html>
+

@@ -1,0 +1,218 @@
+body {
+
+	font-size: 1em;
+	background: #eee;
+	font-family: 'Open Sans', sans-serif;
+	margin: auto;
+	text-align: center;
+
+}
+
+#container {
+	width: 100%;
+	margin: auto;
+}
+
+header {
+
+	background: #033048;
+	width: 100%;
+	height: 100px;
+
+}
+
+header h1 {
+	width: 200px;
+	font-size: 2.5em;
+	color: white;	
+	font-weight: 800;
+	padding-left: 80px;
+	padding-top: 35px;
+	float: left;
+}
+
+
+nav {
+
+	padding-top: 35px;
+	padding-right: 80px;
+/*	position: relative;
+	top: 40px;
+	left: 150px;*/
+	float: right;
+}
+
+nav a {
+	color: yellow;
+	font-size: 1.4em;
+	text-decoration: none;
+	padding-left: 2.3em;
+
+}
+
+/*MAIN*/
+
+section {
+
+	width: 720px;
+	padding-left: 60px;
+	padding-top: 30px;
+	float: left;
+
+}
+
+article {
+
+	width: 700px;
+	color: #333;
+	line-height: 1.4;
+	padding-bottom: 20px;
+	border-bottom: 1px #033048 solid;
+	float: left;
+	margin: 20px;
+
+}
+
+h2 {
+	text-decoration: none;
+	font-size: 2em;
+	font-weight: 600;
+	color: #033048;
+	text-align: left;
+
+}
+
+article a {
+	
+	text-decoration: none;
+	font-weight: 600;
+	color: #033048;
+	float: right;
+
+
+}
+
+article img {
+	width: 100%;
+	height: auto;
+	padding: 20px 0;
+}
+
+/*SIDEBAR*/
+
+aside {
+	width: 200px;
+	padding: 55px 40px;
+	color: #033048;
+	line-height: 1.4;
+	text-align: left;
+	float: left;
+}
+
+aside h3 {
+	text-decoration: none;
+	font-size: 1.8em;
+	font-weight: 800;
+}
+
+ul {
+	list-style: none;
+	padding: 5px;
+	font-size: 1.2em;
+	font-weight: 100;
+
+}
+
+aside p {
+
+	font-size: 1.2em;
+	font-weight: 100;
+}
+
+
+aside a {
+	font-size: 20px;
+	text-align: left;
+	height: 450px;
+}
+
+#box2 {
+	margin-top: 30px;
+}
+
+aside img {
+	width: 150px;
+}
+
+aside span {
+	font-weight: 700;
+}
+
+#box3 {
+	background: white;
+	width: 182px;
+	height: 400px;
+	margin-top: 20px;
+}
+
+/*SIGN UP*/
+
+#register {
+ 	background: #f9e42e;
+	height: 100px;
+	width: 100%;
+	float: left;
+	padding-top: 30px;
+}
+
+.button2 { 
+	background: #033048;
+  	border-radius: 5px;
+  	border: none;
+	width: 300px;
+  	height: 60px;
+
+}
+
+.button2 h4 {
+  	font-size: 2em;
+  	font-family: 'Open Sans', sans-serif;
+  	font-weight: 800;
+  	color: #fff;
+}
+
+footer {
+
+	width: 100%;
+	background: #333;
+  	color: #606161;
+  	height: 200px;
+  	float: left;
+
+}
+
+footer h1 {
+	width: 100%;
+  	font-size: 28px;
+  	font-weight: 800;
+  	color: #f9e42e;
+  	text-align: center;
+  	padding: 24px 0;
+
+}
+
+footer img {
+ 	height: 30px;
+  	margin: 20px 20px;
+  	
+}
+
+footer h5 {
+
+	width: 100%;
+  	font-size: 20px;
+  	font-weight: 300;
+  	color: #fff;
+  	padding: 45px 0;
+}
+

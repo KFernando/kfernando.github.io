@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title> jQuery - Using CSS Selectors with multiple elements </title>
+    <style type="text/css">
+      #colors li {
+       background-color: orange; 
+       width: 130px;
+       margin-top: 10px;
+       color: black;
+       padding: 3px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <ul id="colors">
+      <li>make me green</li>
+      <li>make me green</li>
+      <li>make me green</li>
+      <li>make me green</li>
+    </ul>
+
+    <script src="js/jquery-2.1.4.js"></script>
+    <script>
+      $(function(){
+        // jQuery can be used to update multiple elements at once
+        // When a selector returns more than one element, this is called a "matched set"
+
+        // In the example below, the selector will return all of the li elements into a 
+        //matched set and then change the backgrounds of all of them to green
+
+        $('#colors li').css('background-color', 'green');
+        $('#colors li').css('color', 'white');
+      });
+    </script>
+  </body>
+</html>
+

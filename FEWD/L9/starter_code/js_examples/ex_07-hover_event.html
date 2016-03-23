@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title> jQuery - Getting and Setting content </title>
+    <style type="text/css">
+      #container {
+        width: 300px;
+        margin: 0px auto;
+        border: 1px solid gray;
+      }
+
+      #container h2 {
+        text-align: center;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div id="container">
+      <h2>Hover over me</h2>
+    </div>
+
+    <script src="js/jquery-2.1.4.js"></script>
+    <script>
+      $(function(){
+        // Event listener that listens for a 'mouse over' 
+        // event on an element matching #name
+        $('#container h2').mouseover(handleMouseOver);
+
+        function function_name (argument) {
+          // body...
+        }
+
+
+        function handleMouseOver(){
+          // Display an alert when the mouse is 
+          // placed over the name
+          alert("Javascript is awesome!");
+        }
+      });
+    </script>
+  </body>
+</html>
+

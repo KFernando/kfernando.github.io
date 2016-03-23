@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title> jQuery - Getting and Setting content </title>
+    <style type="text/css">
+      ul.nav {
+        list-style-type: none;
+      }
+
+      ul.nav li {
+        border: 1px solid black;
+        padding: 4px;
+        width: 200px;
+      }
+
+      #text-field-1, #text-field-2 {
+        font-size: 18px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <ul class="nav">
+        <li>New York City</li>
+        <li>Chicago</li>
+        <li>Los Angelas</li>
+        <li>Washington D.C.</li>
+      </ul>
+
+
+      <input id='text-field-1' value="Lois"/>
+      <input id='text-field-2'/>
+    </div> 
+
+    <script src="js/jquery-2.1.4.js"></script>
+    <script>
+      $(function(){
+        // There are three main ways to get content from a page using jQuery
+        // 1) .html()
+        // 2) .text()
+        // 3) .val()
+
+        // Using .hmtl() to get content of ul element and log it to the console
+        console.log($('ul.nav').html());
+
+        //Using .text() to get content of first li element
+        console.log($('ul.nav li:first').val());
+
+
+        //Using .text() to change (set) the text of the last li element from "Washington D.C." to "Atlanta"
+        $('ul.nav li:last').text("Atlanta");
+
+        //Using .val() to get the data entered into the first text field
+         var data = $('#text-field-1').val();
+         // console.log('data entered into text field 1: ' + data);
+
+        //Using .val() to change or set the value of text field 2
+        $('#text-field-2').val("Lane");
+      });
+    </script>
+  </body>
+</html>
+

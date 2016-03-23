@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title> jQuery - Using special selectors </title>
+    <style type="text/css">
+      #colors li {
+        background-color: orange;
+        width: 130px;
+        margin-top: 10px;
+        color: black;
+        padding: 3px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <ul id="colors">
+      <li>make me green</li>
+      <li>I should be orange</li>
+      <li>I should be orange</li>
+      <li>I should be orange</li>
+      <li>make me purple</li>
+    </ul>
+
+    <script src="js/jquery-2.1.4.js"></script>
+    <script>
+      $(function(){
+        // Example that you can use built in jQuery built-in selectors to easily select elements
+
+        // Select the first li element and change the background color to green using ":first"
+        $('#colors li:first').css('background-color', 'green');
+        $('#colors li:first').css('color', 'white');
+
+        // select the last li element and change the background color to purple using ":last"
+        $('#colors li:last').css('background-color', 'purple');
+        $('#colors li:last').css('color', 'white');
+      });
+    </script>
+  </body>
+</html>
+
